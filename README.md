@@ -7,4 +7,5 @@ Zhaoyang Lyu\*, Ching-Yun Ko\*, Zhifeng Kong, Ngai Wong, Dahua Lin, Luca Daniel,
 
 \* Equal contribution
 
+The appendix of our paper is in the file `_appendix.pdf`.
 We are still working on refactoring our code and it's expected to be available by February, 2020.
