@@ -3,7 +3,7 @@
 This repo intends to release code and the appendix for our work:
 
 
-Zhaoyang Lyu\*, Ching-Yun Ko\*, Zhifeng Kong, Ngai Wong, Dahua Lin, Luca Daniel, "Fastened CROWN: Tightened Neural Network Robustness Certificates", AAAI 2020
+Zhaoyang Lyu\*, Ching-Yun Ko\*, Zhifeng Kong, Ngai Wong, Dahua Lin, Luca Daniel, ["Fastened CROWN: Tightened Neural Network Robustness Certificates"](https://arxiv.org/abs/1912.00574), AAAI 2020
 
 \* Equal contribution
 
