@@ -1,7 +1,7 @@
 # Fastened CROWN: Tightened Neural Network Robustness Certificates
 
 *FROWN* (**F**astened C**ROWN**) is a general algorithm to
-tighten the certifiable regions guaranteed by CROWN, which is also theoretically applicable to tighten convolutional neural network certificate CNN-Cert and recurrent neural network certificate POPQORN. We conduct extensive experiments on various networks trained individually to verify the effectiveness of FROWN in safeguarding larger robust regions, and compare FROWN's efficiency with linear programming (LP) based methods in term of improving bounds obtained by CROWN. 
+tighten the certifiable regions guaranteed by [CROWN](https://arxiv.org/abs/1811.00866), which is also theoretically applicable to tighten convolutional neural network certificate [CNN-Cert](https://arxiv.org/abs/1811.12395) and recurrent neural network certificate [POPQORN](https://arxiv.org/abs/1905.07387). We conduct extensive experiments on various networks trained individually to verify the effectiveness of FROWN in safeguarding larger robust regions, and compare FROWN's efficiency with linear programming (LP) based methods in term of improving bounds obtained by CROWN. 
 
 
 This repo intends to release code and the appendix for our work:
@@ -29,7 +29,7 @@ Then clone this repository:
 git clone https://github.com/ZhaoyangLyu/FROWN.git
 cd FROWN
 ```
-Step 1: Train models
+Train models
 --------------------------------------------------------------
 (1) Train classifiers on Sensorless Drive Diagnosis Dataset:\
 The dataset is available at https://archive.ics.uci.edu/ml/datasets/Dataset+for+Sensorless+Drive+Diagnosis. We download `Sensorless_drive_diagnosis.txt` to the folder `FROWN/datasets/drive`.
@@ -38,7 +38,6 @@ We run the following command to preprocess the data.
 cd FROWN/datasets/drive
 python process_data.py
 ```
-**Remember to add process_data.py to drive folder in the future**
 This will split Sensorless_drive_diagnosis.txt into train and test datasets, and save them as pytorch tensors: `train_data.ckpt` and `test_data.ckpt`. (The files are already in the `drive` folder. You don't need to process the data again.)
 Then you can run the following command to train a classifier of 8 layers, with 20 neurons in each layer and ReLU activation for each layer.
 
