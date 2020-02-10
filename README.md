@@ -29,7 +29,7 @@ Then clone this repository:
 git clone https://github.com/ZhaoyangLyu/FROWN.git
 cd FROWN
 ```
-Step 1: Train models
+Train models
 --------------------------------------------------------------
 (1) Train classifiers on Sensorless Drive Diagnosis Dataset:\
 The dataset is available at https://archive.ics.uci.edu/ml/datasets/Dataset+for+Sensorless+Drive+Diagnosis. We download `Sensorless_drive_diagnosis.txt` to the folder `FROWN/datasets/drive`.
